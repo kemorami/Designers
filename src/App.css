@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  line-height: 1.5;   
+}
+.menu {
+  width: 150px;
+  background-color: #45015d;
+  border-radius: 15px; 
+  padding: 10px 20px;
+  color: white;
+  height: 100%;
+  position: fixed;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+}
+.menu a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+.main {
+  margin: 0 0 0 307px;
+}
+.main h1 {
+  font-size: 64px;
+  font-weight: 400;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #45015d;
+}
+hr {
+  border: 5px solid #45015d;
+  background-color: #45015d;
+  border-radius: 3px;
+}
+.images img{
+  width: 45%;
+  border-radius: 10px;
+  margin: 10px; ;
+}
+.member {
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box;
+  margin: 0 7px;
+}
+.member img {
+  border-radius: 10px;
+  width: 100%;
+  filter: grayscale(30%);
+}
+.Description {
+  background-color: #f1f1f1; 
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.Position {
+  color: gray;
+}
+.tarif {
+  width: 40%;
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.tarif.basic .tarif-name{
+  background-color: #45015d;
+}
+.tarif p {
+  border-bottom: 1px #dddddd solid;
+  padding: 15px 0;
+  margin: 0;
+}
+.tarif .tarif-name {
+  background-color: orangered;
+  padding: 32px 0;
+  border-radius: 10px;
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+.tarif .Price {
+   border: none;
+   font-size: 30px;
+}
+.tarif .day {
+   color:gray ;
+}
+.tarif a {
+   background-color: orangered;
+   border-radius:10px ;
+   padding: 10px;
+   text-decoration: solid;
+   color: white;
+   margin: 8px 0;
+}
+.tarif.basic a {
+   background-color: white;
+   color: #45015d;
+}
+input {
+   width: 100%;
+   margin: 15px 0;
+   padding: 10px;
+   box-sizing: border-box;
+}
+textarea {
+   width: 100%;
+   box-sizing: border-box;
+   max-height: 1003px;
+   min-height: 40px;
+   padding: 10px;
+   max-width: 100%;
+   min-width: 100%;
+}
+.button {
+   background-color: #45015d;
+   color: white;
+   border: none;
+   border-radius: 10px;
+}
+.end {
+   padding: 40px;
+   background-color: #f1f1f1;
+   text-align: right;
+   margin-top: 30px;
+}
+span {
+   text-decoration: underline;
+}
